@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-	<button class="mdc-button" style="color:white;">
+	<button class="mdc-button";style="color:white;">
 		<span class="mdc-button__ripple"></span>
 		<i class="material-icons mdc-button__icon" aria-hidden="true">Inventory 2</i>
 		<span class="mdc-button__label">Archived Website</span>
