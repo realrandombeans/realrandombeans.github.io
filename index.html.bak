@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<style>
+	body {
+	background-color: black;
+	}
+	</style>
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
 	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-    <h1 style="text-align:center; vertical-align:center;">Website under construction.</h1>
+    <h1 style="text-align:center vertical-align:center color:white;">Website under construction.</h1>
   </body>
 </html>
