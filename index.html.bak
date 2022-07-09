@@ -34,18 +34,17 @@
 		}
 	</style>
 
-<div class="scroll-left">
-<p>Scroll left... </p>
-</div>
+	<div class="scroll-left">
+	<p>Welcome to the best website ever! Trust me!</p>
+	</div>
 
     <title>
-	My GitHub Pages Site
+	randombeans
 	color: white;
 	</title>
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-	<p>Nice to see you here!</p>
+    <h1>Hello!</h1>
+    <p>Nice to see you here.</p>
   </body>
 </html>
