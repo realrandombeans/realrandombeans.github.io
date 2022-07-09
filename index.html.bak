@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; URL=https://archive.random-beans.com/">
+<link rel="canonical" href="https://archive.random-beans.com/">
 <html>
   <head>
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
@@ -6,29 +9,23 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-		<aside class="mdc-drawer mdc-drawer--modal">
-		<div class="mdc-drawer__content">
-		  <nav class="mdc-list">
-			<a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page" tabindex="0">
-			  <span class="mdc-list-item__ripple"></span>
-			  <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
-			  <span class="mdc-list-item__text">Inbox</span>
-			</a>
-			<a class="mdc-list-item" href="#">
-			  <span class="mdc-list-item__ripple"></span>
-			  <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
-			  <span class="mdc-list-item__text">Outgoing</span>
-			</a>
-			<a class="mdc-list-item" href="#">
-			  <span class="mdc-list-item__ripple"></span>
-			  <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
-			  <span class="mdc-list-item__text">Drafts</span>
-			</a>
-		  </nav>
-		</div>
-	  </aside>
-
-	  <div class="mdc-drawer-scrim"></div>
-	  <div>Main Content</div>
+ <div class="mdc-tab-bar" role="tablist">
+  <div class="mdc-tab-scroller">
+    <div class="mdc-tab-scroller__scroll-area">
+      <div class="mdc-tab-scroller__scroll-content">
+        <button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+          <span class="mdc-tab__content">
+            <span class="mdc-tab__icon material-icons" aria-hidden="true">favorite</span>
+            <span class="mdc-tab__text-label">Favorites</span>
+          </span>
+          <span class="mdc-tab-indicator mdc-tab-indicator--active">
+            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+          </span>
+          <span class="mdc-tab__ripple"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
