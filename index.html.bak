@@ -11,6 +11,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-    <h1 style="text-align:center vertical-align:center color:white;">Website under construction.</h1>
+    <h1 style="text-align:center;vertical-align:center;color:white;font-family:Arial">Website under construction.</h1>
   </body>
 </html>
