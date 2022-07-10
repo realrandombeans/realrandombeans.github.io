@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+</style>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<div class="header">
+  <h1>Welcome to the randombeans blog!</h1>
+</div>
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="http://archive.random-beans.com/">Archived Website</a></li>
+  <li style="float:right"><a class="active" href="#about">Sign In</a></li>
+</ul>
+<div class="row">
+  <div class="column side">
+    <h2></h2>
+    <p></p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Website under construction</h2>
+    <p>Click "Archived Website" to access the old website.</p>
+  </div>
+  
+  <div class="column side">
+    <h2></h2>
+    <p></p>
+  </div>
+</div>
 
 </body>
 </html>
