@@ -4,10 +4,16 @@ body {
 h1 {
 	font-family: Helvetica
 }
+h2 {
+	font-family: Helvetica
+}
 p {
 	font-family: Helvetica
 }
 ul {
+	font-family: Helvetica
+}
+label {
 	font-family: Helvetica
 }
 ul {
@@ -40,10 +46,8 @@ li a:hover {
 .active {
   background-color: #04AA6D;
 }
-/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
 }
 
 /* Left and right column */
@@ -54,13 +58,6 @@ li a:hover {
 /* Middle column */
 .column.middle {
   width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */

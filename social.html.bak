@@ -5,6 +5,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+a:link, a:visited {
+  background-color: #333;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #111;
+}
 body {
   margin: 0;
 }
@@ -35,8 +47,8 @@ body {
   </div>
   
   <div class="column middle">
-    <h2>Website under construction</h2>
-    <p>Click "Archived Website" to access the old website.</p>
+    <h2>Twitter</h2>
+    <a class="twitter-timeline" href="https://twitter.com/realrandombeans">random's tweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
   
   <div class="column side">

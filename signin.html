@@ -5,6 +5,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+a:link, a:visited {
+  background-color: #333;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #111;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
 }
@@ -19,7 +37,7 @@ body {
 </head>
 <body>
 <div class="header">
-  <h1>Welcome to the randombeans blog!</h1>
+  <h1>Sign In</h1>
 </div>
 <ul>
   <li><a href="index.html">Home</a></li>
@@ -35,8 +53,14 @@ body {
   </div>
   
   <div class="column middle">
-    <h2>Website under construction</h2>
-    <p>Click "Archived Website" to access the old website.</p>
+    <h2>Sign in to your Random Account</h2>
+	<form>
+		<label for="uname">Username</label>
+		<input type="text" id="uname" name="uname">
+		<label for="pword">Password</label>
+		<input type="text" id="pword" name="pword">
+		<a href="signinfailure.html" target="_blank">Sign In</a>
+	</form>
   </div>
   
   <div class="column side">
