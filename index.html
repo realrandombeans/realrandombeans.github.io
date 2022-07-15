@@ -5,59 +5,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-a:link, a:visited {
-  background-color: #333;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
 
-a:hover, a:active {
-  background-color: #111;
-}
-body {
-  margin: 0;
-}
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
 </style>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header">
-  <h1>Welcome to the randombeans blog!</h1>
-</div>
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="games.html">Games</a></li>
-  <li><a href="social.html">Social</a></li>
-  <li><a href="http://archive.random-beans.com/">Archived Website</a></li>
-  <li style="float:right"><a class="active" href="signin.html">Sign In</a></li>
-</ul>
-<div class="row">
-  <div class="column side">
-    <h2></h2>
-    <p></p>
-  </div>
-  
-  <div class="column middle">
-    <h2>Website under construction</h2>
-    <p>Click "Archived Website" to access the old website.</p>
-  </div>
-  
-  <div class="column side">
-    <h2></h2>
-    <p></p>
-  </div>
-</div>
 
-	<!-- Firebase Script -->
+
+
+<!-- Firebase Script -->
 <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
@@ -81,6 +37,6 @@ body {
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
-
 </body>
+
 </html>

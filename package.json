@@ -1,7 +1,7 @@
 {
   "name": "realrandombeans.github.io",
   "version": "1.0.0",
-  "description": "randombeans' website",
+  "description": "The randombeans blog and website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/realrandombeans/realrandombeans.github.io/issues"
   },
-  "homepage": "https://github.com/realrandombeans/realrandombeans.github.io#readme",
-  "dependencies": {
-    "@material/button": "^14.0.0",
-    "@material/top-app-bar": "^14.0.0"
-  }
+  "homepage": "https://github.com/realrandombeans/realrandombeans.github.io#readme"
 }
