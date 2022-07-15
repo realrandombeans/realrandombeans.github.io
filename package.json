@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/realrandombeans/realrandombeans.github.io/issues"
   },
-  "homepage": "https://github.com/realrandombeans/realrandombeans.github.io#readme"
+  "homepage": "https://github.com/realrandombeans/realrandombeans.github.io#readme",
+  "dependencies": {
+    "@material/button": "^14.0.0",
+    "@material/drawer": "^14.0.0",
+    "@material/ripple": "^14.0.0",
+    "@material/shape": "^14.0.0",
+    "@material/top-app-bar": "^14.0.0",
+    "material-components-web": "^14.0.0"
+  }
 }
