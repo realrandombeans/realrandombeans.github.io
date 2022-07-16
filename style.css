@@ -18,7 +18,6 @@
   @include ripple.radius-bounded;
   @include ripple.states;
 }
-
 body {
   background-color: #1E1E1E;
 }

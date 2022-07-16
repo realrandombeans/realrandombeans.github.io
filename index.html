@@ -9,6 +9,60 @@
 		<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
 		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 		<style>
+			.container {
+			  position: relative;
+			  text-align: center;
+			  color: white;
+			}
+			.container2 {
+			  position: relative;
+			  text-align: center;
+			  color: white;
+			align-items: center;
+			justify-content: center;
+			}
+
+			/* Bottom left text */
+			.bottom-left {
+			  position: absolute;
+			  bottom: 8px;
+			  left: 16px;
+			}
+			/* Left text */
+			.left {
+			  position: absolute;
+			  top: 30%;
+			  left: 5%;
+			}
+
+			/* Top left text */
+			.top-left {
+			  position: absolute;
+			  top: 8px;
+			  left: 16px;
+			}
+
+			/* Top right text */
+			.top-right {
+			  position: absolute;
+			  top: 8px;
+			  right: 16px;
+			}
+
+			/* Bottom right text */
+			.bottom-right {
+			  position: absolute;
+			  bottom: 8px;
+			  right: 16px;
+			}
+
+			/* Centered text */
+			.centered {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			}
 			* {
 			  box-sizing: border-box;
 			}
@@ -16,23 +70,16 @@
 			body {
 			  margin: 0;
 			}
-			
-			ul {
-			  list-style-type: none;
-			  margin: 0px;
-			  padding: 10px;
-			  width: 15%;
-			  background-color: #2D2D2D;
-			  position: fixed;
-			  height: 100%;
-			  overflow: auto;
-			}
 
 
 			/* Style the header */
 			.header {
 			  background-color: #2D2D2D;
-			  padding: 10px;
+			  padding: 5px;
+			  text-align: center;
+			}
+			.header2 {
+			  background-color: #2D2D2D;
 			  text-align: center;
 			}
 			
@@ -68,85 +115,48 @@
 	</script>
 	
 	<div class="header">
-	  <h1>Random's Blog</h1>
+		<img src="media/logo1a.png" alt="Logo" width="250" height="%100">#
 	</div>
 	
-	<ul>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>home</i
-		  >
-		  <span class="mdc-button__label">Home</span>
-		</button>
-		<p>		</p>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>person</i
-		  >
-		  <span class="mdc-button__label">Profile</span>
-		</button>
-		<p>		</p>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>forum</i
-		  >
-		  <span class="mdc-button__label">Forum</span>
-		</button>
-		<p>		</p>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>toys</i
-		  >
-		  <span class="mdc-button__label">Games</span>
-		</button>
-		<p>		</p>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>feed</i
-		  >
-		  <span class="mdc-button__label">Blog</span>
-		</button>
-		<p>		</p>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>store</i
-		  >
-		  <span class="mdc-button__label">Store</span>
-		</button>
-		<p>		</p>
-		<button class="mdc-button mdc-button--raised mdc-button--leading" style="width:100%;height:40px;">
-		  <span class="mdc-button__ripple"></span>
-		  <i class="material-icons mdc-button__icon" aria-hidden="true"
-			>logout</i
-		  >
-		  <span class="mdc-button__label">Log Out</span>
-		</button>
-	</ul>
+	<div class="container">
+	<div class="header">
+		<img src="media/wallpaper3.jpg" alt="Logo" style="object-fit: cover;filter: brightness(50%);object-position: center;" width="100%" height="350";>
+	</div>
+	  <div class="left"><h1 style=font-size:50px>Everything you need at your fingertips</h1></div>
+	</div>
 	
-	<div style="margin-left:15%;padding:1px 16px;height:1000px;">
+	<div style="padding:1px 16px;height:1000px;">
 	<div class="row">
 		<div class="column">
-			<h2>Column</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
 		</div>
 		  
 		<div class="column">
-			<h2>Column</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			<h1>To sign up, just click on the button below! It's completely free!</h1>
+			<div class="container2">
+				<button class="mdc-button mdc-button--raised mdc-button--leading">
+				  <span class="mdc-button__ripple"></span>
+				  <i class="material-icons mdc-button__icon" aria-hidden="true"
+					>person</i
+				  >
+				  <span class="mdc-button__label">Sign up using Email</span>
+				</button>
+				<p></p>
+				<button class="mdc-button mdc-button--raised mdc-button--leading" href="signupthird.html">
+				  <span class="mdc-button__ripple"></span>
+				  <i class="material-icons mdc-button__icon" aria-hidden="true"
+					>public</i
+				  >
+				  <span class="mdc-button__label">Sign up using third party</span>
+				</button>
+			</div>
 		</div>
 		  
 		<div class="column">
-			<h2>Column</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
 		  </div>
 		</div>
 	</div>
+
+	
 
 	
 	<!-- Firebase Script -->
