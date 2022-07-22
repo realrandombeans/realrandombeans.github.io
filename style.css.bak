@@ -1,49 +1,76 @@
-@use "@material/"
-@use "@material/button/styles";
-@use "@material/icon-button";
-@use "@material/top-app-bar/mdc-top-app-bar";
-@use "@material/drawer";
-@use "@material/list";
-@use "@material/ripple";
-@use "@material/foo";
+			h1 {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			h2 {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			h3 {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			h4 {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			h5 {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			h6 {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			p {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			a {
+			  color: black;
+			  font-family: 'Arimo', sans-serif;
+			}
+			.topnav {
+				padding: 10px;
+				overflow: hidden;
+				background-color: #333;
+			}
+			.material-icons.md-18 { font-size: 18px; align-items: center;;}
+			.material-icons.md-24 { font-size: 24px; }
+			.material-icons.md-36 { font-size: 36px; }
+			.material-icons.md-48 { font-size: 48px; }
+			.header {
+			  border-radius: 25px 25px 0px 0px;
+			  background-color: #333;
+			  padding: 1px;
+			  text-align: center;
+			} 
+			/* The navbar container */
+			.footer {
+			  background-color: #333;
+			  text-align: center;
+			  color: white;
+			  padding: 3px;
+			  border-radius: 25px 25px 0px 0px ;
+			}
+			.topnav	{
+				border-radius: 0px 0px 25px 25px;
+			}
+			a:link, a:visited {
+			  border-radius: 25px;
+			  background-color: #673ab7;
+			  color: white;
+			  padding: 10px 20px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			}
 
-@include drawer.core-styles;
-@include drawer.dismissible-core-styles;
-@include drawer.modal-core-styles;
-@include list.core-styles;
-@include icon-button.core-styles;
-
-.my-surface {
-  @include ripple.surface;
-  @include ripple.radius-bounded;
-  @include ripple.states;
-}
-body {
-  background-color: #1E1E1E;
-  left:200px
-}
-
-h1 {
-  color: white;
-}
-h2 {
-  color: white;
-}
-h3 {
-  color: white;
-}
-h4 {
-  color: white;
-}
-h5 {
-  color: white;
-}
-h6 {
-  color: white;
-}
-p {
-  color: white;
-}
-button {
-  color: white;
-}
+			a:hover, a:active {
+			  background-color: #9a67ea;
+			}
+			
+			hr.rounded {
+			  border-top: 8px solid #bbb;
+			  border-radius: 5px;
+			}

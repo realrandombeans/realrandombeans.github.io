@@ -5,187 +5,26 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-		<style>
-			.container {
-			  position: relative;
-			  text-align: center;
-			  color: white;
-			}
-			.container2 {
-			  position: relative;
-			  text-align: center;
-			  color: white;
-			align-items: center;
-			justify-content: center;
-			}
-
-			/* Bottom left text */
-			.bottom-left {
-			  position: absolute;
-			  bottom: 8px;
-			  left: 16px;
-			}
-			/* Left text */
-			.left {
-			  position: absolute;
-			  top: 30%;
-			  left: 5%;
-			}
-
-			/* Top left text */
-			.top-left {
-			  position: absolute;
-			  top: 8px;
-			  left: 16px;
-			}
-
-			/* Top right text */
-			.top-right {
-			  position: absolute;
-			  top: 8px;
-			  right: 16px;
-			}
-
-			/* Bottom right text */
-			.bottom-right {
-			  position: absolute;
-			  bottom: 8px;
-			  right: 16px;
-			}
-
-			/* Centered text */
-			.centered {
-			  position: absolute;
-			  top: 50%;
-			  left: 50%;
-			  transform: translate(-50%, -50%);
-			}
-			* {
-			  box-sizing: border-box;
-			}
-
-			body {
-			  margin: 0;
-			}
-
-
-			/* Style the header */
-			.header {
-			  background-color: #2D2D2D;
-			  padding: 5px;
-			  text-align: center;
-			}
-			.header2 {
-			  background-color: #2D2D2D;
-			  text-align: center;
-			}
-			
-			/* Create three equal columns that floats next to each other */
-			.column {
-			  float: left;
-			  width: 33.33%;
-			  padding: 15px;
-			}
-
-			/* Clear floats after the columns */
-			.row:after {
-			  content: "";
-			  display: table;
-			  clear: both;
-			}
-
-			/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-			@media screen and (max-width:600px) {
-			  .column {
-				width: 100%;
-			  }
-			}
-		</style>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
-	
-	<script>
-	import {MDCFoo, MDCFooFoundation} from '@material/foo';
-	import {MDCRipple} from '@material/ripple';
-
-	const buttonRipple = new MDCRipple(document.querySelector('.mdc-button'));
-	</script>
-	
-	<div class="header">
-		<img src="media/logo1a.png" alt="Logo" width="250" height="%100">#
-	</div>
-	
-	<div class="container">
-	<div class="header">
-		<img src="media/wallpaper3.jpg" alt="Logo" style="object-fit: cover;filter: brightness(50%);object-position: center;" width="100%" height="350";>
-	</div>
-	  <div class="left"><h1 style=font-size:50px>Everything you need at your fingertips</h1></div>
-	</div>
-	
-	<div style="padding:1px 16px;height:1000px;">
-	<div class="row">
-		<div class="column">
+		<div class="header">
+		  <h1 style="color: white;">Random's Blog</h1>
 		</div>
-		  
-		<div class="column">
-			<h1>To sign up, just click on the button below! It's completely free!</h1>
-			<div class="container2">
-				<button class="mdc-button mdc-button--raised mdc-button--leading">
-				  <span class="mdc-button__ripple"></span>
-				  <i class="material-icons mdc-button__icon" aria-hidden="true"
-					>person</i
-				  >
-				  <span class="mdc-button__label">Sign up using Email</span>
-				</button>
-				<p></p>
-				<button class="mdc-button mdc-button--raised mdc-button--leading" href="signupthird.html">
-				  <span class="mdc-button__ripple"></span>
-				  <i class="material-icons mdc-button__icon" aria-hidden="true"
-					>public</i
-				  >
-				  <span class="mdc-button__label">Sign up using third party</span>
-				</button>
-			</div>
+		
+		<div class="topnav">
+		<a href="default.asp" target="_blank">Home</a>
+		<a href="default.asp" target="_blank">Social</a>
+		<a href="default.asp" target="_blank">Apps & Games</a>
+		<a href="default.asp" target="_blank">Forum</a>
+		<a href="default.asp" target="_blank">Messages</a>
 		</div>
-		  
-		<div class="column">
-		  </div>
+		
+		<div class="footer">
+		<p style="color: white;">Website under construction.</p>
 		</div>
-	</div>
-
-	
-
-	
-	<!-- Firebase Script -->
-	<script type="module">
-
-	  // Import the functions you need from the SDKs you need
-	  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
-	  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-analytics.js";
-	  // TODO: Add SDKs for Firebase products that you want to use
-	  // https://firebase.google.com/docs/web/setup#available-libraries
-
-	  // Your web app's Firebase configuration
-	  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-	  const firebaseConfig = {
-		apiKey: "AIzaSyBwKxEVUnI8WpyYaEJTIl_UMweBSiNDxnk",
-		authDomain: "randomswebsite-73126.firebaseapp.com",
-		projectId: "randomswebsite-73126",
-		storageBucket: "randomswebsite-73126.appspot.com",
-		messagingSenderId: "81174469358",
-		appId: "1:81174469358:web:fe2e404ce299257adf71ff",
-		measurementId: "G-CLR2TW152Z"
-	  };
-
-	  // Initialize Firebase
-	  const app = initializeApp(firebaseConfig);
-	  const analytics = getAnalytics(app);
-	</script>
-	<script>
-		mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
-	</script>
 	</body>
 </html>
